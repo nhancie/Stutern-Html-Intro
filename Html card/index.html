@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtable Pricing Card</title>
+    <style>
+        * {
+            /* Reset*/
+            /* Alternative box sizing */
+            box-sizing: border-box;
+            /* Reset padding and margin on all elements*/
+            padding: 0;
+            margin: auto;
+            
+        }
+        
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.4;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgb(93, 92, 92); 
+            height: 800px;
+        }
+
+        .flex-container {
+            background-color: bisque;
+            width: 250px;
+            padding: 15px 20px 200px;
+            border-radius: 3%;
+        }
+
+        .row-1 p {
+           padding: 5px 0 100px;
+        }
+
+        .row-2 {
+            display: flex;
+        }
+       
+        #dollar {
+            font-size: 50px;
+            padding-right: 20px;
+        }
+        
+        .button {
+            border: 1px solid black;
+            border-radius: 5em;
+            padding: 15px 70px;
+            margin: 20px 0;
+        }
+        .features li {
+            list-style-type: none;
+            list-style-image: url('img/icons8-done.svg');
+            margin-left: 20px;
+        }
+        .row-3 p{
+            padding-bottom: 10px;
+        }
+        #dotted {
+            border-bottom: 2px dotted ;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="row-1">
+            <h4>
+                Plus
+            </h4>
+            <p>
+                For teams looking to create connected apps to manage their own workflows
+            </p>
+        </div>
+    
+        <div class="row-2">
+            <span id="dollar">
+                $10
+            </span>
+            <p>per seat /month billed annually</p>
+        </div>
+        <p><b>$12</b> billed monthly</p>
+        <button class="button">Try for free</button>
+        <div class="row-3">
+            <p>Everything in <b>Free</b>, plus:</p>
+            <ul class="features">
+                <li>3 <span id="dotted">extensions</span> per base</li>
+                <li>3 sync integrations</li>
+                <li>5,000 records per base</li>
+                <li>5GB of attachments per base</li>
+                <li>Custom branded forms</li>
+                <li>6-month revision & snapshot history</li>
+                <li>Automatic table syncing</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
