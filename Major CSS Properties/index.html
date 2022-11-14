@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        * {
+            line-height: 1.5;
+        }
+        /*h2 {
+            font-size: 18px;
+        } */
+        section {
+            border: 1px solid red;
+            padding: 20px;
+            margin: 15px;
+        }
+        .section_1 {
+            color: green;
+        }
+
+        .section_2 {
+            color: red;
+        }
+
+        .section_3 {
+            color: blue;
+        }
+
+        #git_github {
+            border: 2px solid green;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        #html {
+            border: 2px solid blue;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        #css {
+            border: 2px solid black;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        #content_box {
+            background-color: antiquewhite;
+            width: 200px;
+            padding: 5px;
+            border: 5px solid green;
+            margin: 10px;
+        }
+        #content_box p {
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        h4 {
+            text-transform: capitalize;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="section_1">
+        <!-- First section -->
+        <h2>First Section</h2>
+        <p>My name is <b>NANCY AKINKUGBE</b>. My love for Technology (Software development started from the moment I produced <i>"Hello World!</i> in the console for the first time. I knew I was hooked into this World of Software Engineering from that very day because it was fascinating and the thought of the numerous things I could build with this skill keeps me motivated. So, far in the program I have learned a lot starting from git, github, HTML and CSSand many more to come. </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="section_2">
+        <!-- Second section -->
+        <h2>Second Section</h2> 
+        <div id="git_github">
+        <h3>Git and Github</h3>
+        <p> Git is an open source distributed version control system that helps developer manage projects with high speed and efficency. It allows you to moitor and work together with your team members at the same workspace. Github is to Git as what facebook is to the actual face. Github is designed as a Git repository hosting services like a storage, an online storage that allows you to keep track of and share Git version control projects outside of your local computer/server. </p>
+        <h4>Importance of Git</h4>
+        <ul>
+            <li>Branching capabilities</li>
+            <li>Ability to track source code history</li>
+            <li>It serves as backup of your source code</li>
+            <li>Collaboration with other team members</li>
+            <li>Efficiency and can handle project of any size</li>
+        </ul>
+        </div>
+        <div id="html">
+        <h3>HTML</h3>
+        <p>HTML - HyperText Markup Language also known as the language of the web. It is not a programming language because programming languages deals with logic e.g. Conditionals(where you can say "if"). It's used to define the structure and content of a webpage. It comprises of tags and elements. The Word tags and elements are used interchangeably, the HTML tags are enclosed in angle brackets <b> e.g <head></b>. In HTML, we have inline and block elements. Inline elements are elements that takes up the width of the content, they do not accept margin or padding and cannot start on a new line <b>e.g span, input, label, img </b>. Block Elements, on the other hand are opposite of inline elements <b>e.g paragraph, headings(h1, h2, h3, h4, h5, h6), div, ul , ol</b> </p>
+        <p>Tags: Are entites used to wrap the content of a html element e.g headings, p, title, head etc. HTML attributes, gives addiional information about an element and are usually written in key-value pairs but not all attr are in key-value pairs e.g disable, autofocus and some accept multiple values e.g class. Comments, are used as references by developer to explain code content are usually ignored by the browser.</p>
+        </div>
+        <div id="css">
+        <h3>CSS</h3>
+        <p>CSS - Cascading Style Sheets. It's basically use to add style and layout to an HTML document also it tells the browser how to present the document to the user. The importance of CSS to an HTML document is that, it makes the front-end of a website presentable and it creates user experience. Without CSS, websites would be less pleasing to the eye an likely much harder to navigate. There are 3 different types of styling in CSS.</p>
+        <h4>Types of styling in CSS</h4>
+        <p>There are three (3) major types of styling in CSS</p>
+        <dl>
+        <dt><b>Inline Styling</b></dt>
+            <dd>A method not recommended because of <i>specificity</i>. It basically adding style to an HTML element. It overrides any other type of styling in CSS.</dd>
+        <dt><b>Internal Styling</b></dt>
+            <dd>This method adds the style in the head element but because the browser loads fro top to bottom, this also is not a good recommendation especially for large project.</dd>
+        <dt><b>External Styling</b></dt> 
+           <dd>This is written in a separate file .css and the <link> is added in the <head> element. Most recommended type of styling.</dd>
+        </dl>
+            <h4>Specificity</h4>
+        <p>Specificity is the means by which the browsers decides which  CSS property values are most relevant to an element. Cascading means the order in which CSS rules are applied to an element.</p>
+        <dl>
+            <dt><b>Types of selectors:</b></dt>
+            <dd>Universal Selector: This selector selects all the elements on a webpage.</dd>
+            <dd>Element/type Selector: This selectors are less specific. It styles elements that have a certain type on that page</dd>
+            <dd>Class selector: Styles element that are specific to a particular class attribute value. A period (.) is used to specify a class.</dd>
+            <dd>ID Selector: Is used to style unique element. A hash symbol (#) is used to specify an id selector.</dd>
+            <dd>Attribute Selector: This selector styles content according to the attribute and the attribute value name mentioned enclosed in square brackets.</dd>
+        </dl>
+        </div>
+        </div>
+        </section>
+        <section>
+            <div class="section_3">
+            <!-- third section -->
+        <h2>Third Section</h2>
+        <div id="content_box">
+        <p>Content box</p>
+        </div>
+        <p>Content: The size of the area where the content is displayed is controlled through the width and height properties.</p>
+        <p>Padding:This is the outside of the content. It adds a white space around the content and it is controlled through the padding (top, right, bottom and left).</p>
+        <p>Border: This wraps the content and the padding. Its size is controlled through the border properties(border-width, border-style, border-color and border-radius</p>
+        <p>Margin: This wraps everything (the content, padding and border). It adds a white space around the elements and it size can be controlled through the margin properties (top, right, bottom and left)</p>
+        </div>
+    </section>
+</body>
+</html>
