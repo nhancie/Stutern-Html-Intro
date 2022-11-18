@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(90deg, skyblue, pink);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.bg {
+    background-color: rgb(238, 235, 235);
+    max-width: 88em;
+    height: 55em;
+    padding: 0 30px 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 0;
+    position: relative;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+}
+
+.logo a {
+    color: rgb(74, 7, 121);
+    text-decoration: none;
+}
+
+nav a.button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.intro {
+    display: flex;
+    padding: 30px 0;
+}
+
+.intro div {
+    margin: auto 25px;   
+}
+
+.bio {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+}
+
+.skills {
+    max-width: 500px;
+}
+
+.skills button {
+    margin: 0 0 10px 10px;
+    padding: 4px;
+    background-color: rgb(230, 227, 227);
+    border: 1px solid rgb(143, 141, 141);
+    border-radius: 5px;
+    font-weight: 600;
+}
