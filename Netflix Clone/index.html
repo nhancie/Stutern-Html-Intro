@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    
+    <div class="main">
+        <nav>
+            <div class="navbar">
+                <div class="logo"><img src="./assets/logo.png" alt="logo" style="width: 220px;"></div>
+                <a href="#" class="button">Sign In</a>
+            </div>
+        </nav>
+    
+        <div class="hero">
+            <div class="hero-container">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <p id="md">Watch anywhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form action="">
+                    <input type="text" id="email" name="emailaddress" placeholder="Email address">
+                    <a href="#" class="forward">Get Started
+                        <img src="./assets/icons8-forward-16 (1).png" alt="forward" style="height: 20px;">
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="tv-container">
+        <div class="note">
+            <h2>Enjoy on your TV.</h2>
+            <p id="md">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+        <div class="tv-card">
+            <img src="./assets/tv.png" alt="">
+            <video class="tv-video" autoplay="" playsinline="" muted="" loop="">
+                <source src="./assets/video-tv-0819.m4v" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="mobile-container">
+        <div class="mobile">
+            <img src="./assets/mobile-0819.jpg" alt="mobile" style="height: 80%;">
+            <div class="overlap">
+                <img src="./assets/boxshot.png" alt="shot" style="width: 50px; height: 65px; margin: 15px;">
+                <div class="sd" style="margin-left: 0;">
+                    <p><b>Stranger Things</b></p>
+                    <span>Downloading...</span>
+                </div>
+                <img src="./assets/download-icon.gif" alt="download" style="width: 80px; height: 90px;">
+            </div>
+        </div>
+        <div class="note">
+            <h2>Download your shows to watch offline.</h2>
+            <p id="md">Save your favorites easily and always have something to watch.</p>
+        </div>
+    </div>
+
+    <div class="no-img">
+        <div class="note half">
+            <h2>Watch everywhere.</h2>
+            <p id="md">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+    </div>
+
+    <div class="kids-container">
+        <div class="kids">
+            <img src="./assets/kids.png" alt="mobile">
+        </div>
+        <div class="note">
+            <h2>Download your shows to watch offline.</h2>
+            <p id="md">Save your favorites easily and always have something to watch.</p>
+        </div>
+    </div>
+
+    <div class="faq-container .faq-box">
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="faq-list">
+                <li class="faq-list-item">
+                    <button class="faq-question">What is Netflix? <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30"viewBox="0,0,256,256"style="fill:#000000;"><g fill="#222222" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#fffefe" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path></g></g></svg></button>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-question">How much does Netflix cost?<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30"viewBox="0,0,256,256"style="fill:#000000;"><g fill="#222222" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#fffefe" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path></g></g></svg></button>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-question">Where can I watch? <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30"viewBox="0,0,256,256"style="fill:#000000;"><g fill="#222222" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#fffefe" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path></g></g></svg></button>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-question">How do I cancel? <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30"viewBox="0,0,256,256"style="fill:#000000;"><g fill="#222222" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#fffefe" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path></g></g></svg></button>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-question">What can I watch on Netflix? <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30"viewBox="0,0,256,256"style="fill:#000000;"><g fill="#222222" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#fffefe" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path></g></g></svg></button>
+                </li>
+                <li class="faq-list-item">
+                    <button class="faq-question">Is Netflix good for kids? <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30"viewBox="0,0,256,256"style="fill:#000000;"><g fill="#222222" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#fffefe" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path></g></g></svg></button>
+                </li>
+            </ul>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form action="">
+                <input type="text" id="email" name="emailaddress" placeholder="Email address">
+                <a href="#" class="forward">Get Started
+                    <img src="./assets/icons8-forward-16 (1).png" alt="forward" style="height: 20px;">
+                </a>
+            </form>
+        </div>
+    </div>
+
+     <!-- footer -->
+    <footer>
+        <div class="info">
+            <div class="info-content">
+                <p>Questions? Contact Us.</p>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>FAQ</td>
+                        <td>Help Center</td>
+                        <td>Account</td>
+                        <td>Media Center</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                    <td>Investor Relations</td>
+                    <td>Jobs</td>
+                    <td>Ways to Watch</td>
+                    <td>Terms of Use</td>
+                    </tr>
+
+                    <tr>
+                    <td>Privacy</td>
+                    <td>Cookie Preference</td>
+                    <td>Corporate Information</td>
+                    <td>Contact Us</td>
+                    </tr>
+
+                    <tr>
+                    <td>Speed test</td>
+                    <td>Legal Notices</td>
+                    <td>Only on Netflix</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Netflix Nigeria</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
