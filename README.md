@@ -1,2 +1,1 @@
-Html Skeleton
-Html card
+Stutern Projects
